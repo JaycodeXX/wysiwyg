@@ -1,0 +1,27 @@
+body{
+    background: #011C27;
+}
+
+.document{
+    border: 1px solid gray;
+    width: 80%;
+    min-height: 50vh;
+    padding: 10px;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    background: whitesmoke;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+textarea{
+    background: none;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+}

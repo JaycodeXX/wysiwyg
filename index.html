@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+     integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>WYSIWYG - JaycodeXX</title>
+</head>
+<body>
+    <main>
+        <header>
+            <button id="bold">
+                <i class="fa-solid fa-bold"></i>
+            </button>
+            <button id="italics">
+                <i class="fa-solid fa-italic"></i>
+            </button>
+            <button id="underline">
+                <i class="fa-solid fa-underline"></i>
+            </button>
+            <button id="font">
+                <i class="fa-solid fa-font"></i>
+            </button>
+           <div class="selectBox">
+                <select id="fontSize">
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="14">14</option>
+                    <option value="18">18</option>
+                    <option value="24">24</option>
+                    <option value="30">30</option>
+                    <option value="36">36</option>
+                    <option value="48">48</option>
+                    <option value="60">60</option>
+                    <option value="72">72</option>
+                    <option value="96">96</option>
+                </select>
+            </div>
+        </header>
+        <textarea class="document"></textarea>
+    </main>
+   <script src="script.js"></script>
+</body>
+</html>
